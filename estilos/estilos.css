@@ -1,0 +1,24 @@
+/* Estilos para la página web */
+body {
+    background-color: #90609e;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #580404;
+}
+
+.encabezado {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+
+.parrafo {
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 24px;
+}
