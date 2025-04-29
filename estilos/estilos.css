@@ -22,7 +22,34 @@ h1 {
     font-size: 36px;
     color: #640a0a;
 }
-p{
-    color:red;
-    font-size: 32px;
+
+.encabezado {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 42px;
+}
+
+.parrafo {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+#fondo {
+    background-color: #a847ce;
+    /* modificar el color a elección */
+}
+
+.parrafo {
+    color: #000000;
+    background-color: #90609e;
+    text-decoration: #580404;
+    font-size: xx-small;
+    font-weight: 300;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: normal;
 }
