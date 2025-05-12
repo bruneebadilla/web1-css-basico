@@ -1,0 +1,85 @@
+/*header*/
+/*selctor por etiqueta:header*/
+header {
+    background-color: rgb(189, 135, 240);
+    /*fondo completo del header*/
+    color: bisque;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 23%, rgba(253, 29, 29, 1) 60%, rgba(252, 176, 69, 1) 76%);
+    text-align: center;
+    /*todos los textos de header*/
+    height: 350Spx;
+    /*altura por ahora en px=pixeles*/
+}
+
+h1 {
+    background-color: rgb(173, 91, 173);
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    /*a los elemntos de la lista los coloca horizontal*/
+}
+
+nav ul li a {
+    /*selecciono las A(anchor-ancla-enlace-link-url-hipervinvulo*/
+    text-decoration: none;
+    /*elimina el subrayado*/
+    color: rgb(212, 177, 149);
+    /*color balco al aletra de a*/
+    text-transform: uppercase;
+    /*colocamos el texto de A en mayuscula*/
+    padding: 8px;
+    /*margen interno del elemento a*/
+    background-color: rgb(129, 63, 192);
+    border-radius: 5px;
+
+}
+
+/*pseudo clases*/
+/*:hover-el puntero esta encima del elemento a*/
+nav ul li a:hover {
+    color: rgb(77, 75, 179);
+    background-color: rgb(206, 14, 14);
+}
+
+
+/* main */
+
+#clases {
+    text-align: center;
+    font-size:larger;
+}
+
+
+h2 {
+    color: rgb(255, 11, 11);
+}
+h3{
+    color: rgb(255, 11, 11);
+    text-align: center;
+
+}
+#horarios{
+    
+    font-size: larger;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+}
+
+
+main {
+    background-color: rgb(216, 183, 247);
+}
+
+footer {
+    background-color: rgb(173, 91, 173);
+    text-transform: uppercase;
+
+}
+footer ul li{
+    display: inline-block;
+}
+
